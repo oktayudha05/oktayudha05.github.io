@@ -101,6 +101,7 @@
           btnLoading.classList.toggle('d-none');
           btnKirim.classList.toggle('d-none');
           myAlertgagal.classList.add('d-none');
+          myAlert.classList.add('d-none');
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
                 btnLoading.classList.toggle('d-none');
